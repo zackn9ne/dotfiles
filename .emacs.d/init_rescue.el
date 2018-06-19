@@ -1,3 +1,6 @@
+; always open
+(find-file "~/.emacs.d/init.el") 
+
 ; no backups
                                                                                     ;    │····························································
 (setq make-backup-files nil) ; stop creating backup~ files                          ;    │····························································
