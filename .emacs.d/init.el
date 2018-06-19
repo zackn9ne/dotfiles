@@ -83,8 +83,8 @@
   (load "package_config"))
 
 ;; custom variables
-(setq custom-file "~/.emacs.d/custom.el")
-(if (file-exists-p "~/.emacs.d/custom.el") (load custom-file))
+(setq custom-file "~/.emacs.d/init_rescue.el")
+(if (file-exists-p "~/.emacs.d/init_rescue.el") (load custom-file))
 
 ;;start on home directory
 (cd "~")
